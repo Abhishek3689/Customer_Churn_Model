@@ -1,0 +1,46 @@
+<html>
+    <header>
+    <title>Customer Churn Prediction</title>
+    <h1>Welcome to Customer Churn Prediction Page</h1>
+
+    
+        <link rel="stylesheet" href="static/style.css">
+    </header>
+    <body>
+        <form action="/predict_churn" method="post">
+            <label>Enter the parameter</label><br>
+    <label for='Geography'>Geography :</label>
+    <select id="Geography" name="Geography">
+        <option value="France">France</option>
+        <option value="Spain">Spain</option>
+        <option value="Germany">Germany</option>
+    </select>
+    <label for='Gender'>Gender   :</label>
+    <select id="Gender" name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+    <label for='CreditScore'>CreditScore     :</label>
+    <input type='text' name='CreditScore' id='CreditScore'  required='required'><br>
+    <label for='Age'>Age   :</label>
+    <input type='text' name='Age' id='Age' required='required'>
+    <label for='Tenure'>Tenure  :</label>
+    <input type='text' name='Tenure' id='Tenure'  required='required'><br>
+    <label for='Balance'>Balance  :</label>
+    <input type='text' name='Balance' id="Balance" required='required'>
+    <label for='NumOfProducts'>NumOfProducts :</label>
+    <input type='text' name='NumOfProducts'id='NumOfProducts'  required='required'><br>
+    <label for='HasCrCard'>HasCrCard  :</label>
+    <input type='text' name='HasCrCard' id='HasCrCard' required='required'>
+    <label for='IsActiveMember'>IsActiveMember  :</label>
+    <input type='text' name='IsActiveMember' id ='IsActiveMember'required='required'/><br>
+    <label for='EstimatedSalary'>EstimatedSalary  :</label>
+    <input type='text' name='EstimatedSalary' id ='EstimatedSalary'required='required'/>
+
+    <input type='submit' value='Predict'>
+
+        </form>
+
+    <h1>Prediction of Customer Churn is {{results}}</h1>
+    </body>
+</html>

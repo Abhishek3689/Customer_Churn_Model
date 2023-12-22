@@ -1,0 +1,45 @@
+h1{background-color: antiquewhite;}
+h1{color: blue;}
+h1{text-align: center;}
+h2{background-color: aquamarine;}
+h2{color: darkgreen;}
+h2{text-align: center;}
+p{color: rgb(6, 5, 104);}
+p{font-style: normal;}
+p{font-size: large;}
+table,td,th{border: 1px;}
+head{font-size: large;}
+head{text-align: center;}
+body{background-color: aquamarine;}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #d4cece;
+    padding: 1px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #08490b;
+    color: #fff;
+    padding: 1px 1px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
